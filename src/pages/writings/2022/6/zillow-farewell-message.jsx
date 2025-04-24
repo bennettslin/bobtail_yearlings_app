@@ -2,6 +2,7 @@ import React from 'react'
 import Page from '../../../../containers/Page'
 import { pagesMap } from '../../../../content/writings/2022'
 import Image from '../../../../components/Image'
+import scenePhoto from '../../../../assets/images/writings/2022/6/zillow-farewell-message/scene.jpg'
 import promoPhoto from '../../../../assets/images/writings/2022/6/zillow-farewell-message/promo.jpg'
 import showPhoto from '../../../../assets/images/writings/2022/6/zillow-farewell-message/show.jpg'
 import teamPhoto from '../../../../assets/images/writings/2022/6/zillow-farewell-message/team.jpg'
@@ -31,13 +32,21 @@ I spent my college years in the Bay Area, playing in a band with friends. We wer
                     <Image
                         isPortrait
                         {...{
+                            src: scenePhoto,
+                            caption: `Our little East Bay art punk scene. No one really took photos back then, so this is all I've got.`,
+                        }}
+                    />
+                ), `
+It worked. The demo attracted some record labels. But they needed to see that I had a working band. And as I quickly found out, it's hard to get others to join when: they aren't your close friends; they didn't contribute to the demo themselves; and, the music is so complex that it's difficult to learn. I just couldn't keep a lineup together long enough, and the talks fizzled.
+                `, (
+                    <Image
+                        isPortrait
+                        {...{
                             src: promoPhoto,
                             caption: `Embarrassing promo photo for the demo.`,
                         }}
                     />
                 ), `
-It worked. The demo attracted some record labels. But they needed to see that I had a working band. And as I quickly found out, it's hard to get others to join when: they aren't your close friends; they didn't contribute to the demo themselves; and, the music is so complex that it's difficult to learn. I just couldn't keep a lineup together long enough, and the talks fizzled.
-
 ### The grad school part
 
 Not knowing what else to do, I moved to New York and got an MA in music composition. Still not knowing what to do, I decided to get a PhD in music theory. The choice was between FSU and UW. I was torn between the two, but my girlfriend at the time, who was from Little Rock, had no desire to live in the South again. So she chose for us: Seattle it was! (Chelsea Campbell and Stephens Jean-Jacques, feel free to confirm if Tallahassee is really part of the South.)
@@ -45,7 +54,7 @@ Not knowing what else to do, I moved to New York and got an MA in music composit
                     <Image
                         {...{
                             src: showPhoto,
-                            caption: `The New York lineup of the Bobtail Yearlings.`,
+                            caption: `The New York lineup of the Bobtail Yearlings. Literally the only photo of us from that time.`,
                         }}
                     />
                 ), `
