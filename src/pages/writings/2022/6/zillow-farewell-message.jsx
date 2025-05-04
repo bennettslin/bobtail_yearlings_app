@@ -17,11 +17,11 @@ const Component = () => (
             metaDescription: `A parting message to my Zillow teammates.`,
             body: [
                 `
-*I worked as a frontend developer at Zillow for seven years. Before leaving, I wrote this farewell message to my teammates on a zWiki page. (The zWiki is Zillow's internal wiki system. Everything internal at Zillow is prefixed with a "z.")*
+*I worked as a frontend developer at Zillow for seven years. Before leaving, I followed in the same spirit of others who'd left before me, and wrote this farewell message to my teammates on the company's internal wiki.*
 
-*Where you see a teammate's name, that was originally a hyperlink to their internal profile page. Also, since this was meant for the workplace, I kept it lighthearted and left out all the depressing stuff, which is why there are noticeable gaps in my life's story.*
+*Where you see a teammate's name, that was originally a hyperlink to their internal wiki page. Also, since this was meant for the workplace, I kept it lighthearted and left out all the depressing stuff, which is why there are noticeable gaps in my life's story.*
 
-### Farewell, and please check out my band
+### Farewell
 
 I wanted to personally reflect on my time at Zillow, and to express gratitude for all that my team and my colleagues have done for me. Since the path I took is kind of unusual, I provided some additional context to explain certain parts. So there's a bit of backstory here, which makes all of this a little more self-indulgent than I'd originally planned. Sorry! I've labeled the various parts, so feel free to jump in (or out) at any point.
 
@@ -103,39 +103,6 @@ As a band leader, it was also never clear to me how a group comes together to ge
 And our team was always experimenting with different approaches, from Agile to Kanban. During Project Comet, we would break out into smaller subgroups, which Brittany Kohler named Groups of Friends. It was fun to work with different combinations of teammates for short periods of time, and it proved to be effective. I plan to use this idea for a large-scale project at some point.
 
 A couple months ago, I took my R&R. For the first time in quite a while, I was able to devote every waking hour to my projects. Since I no longer had to context switch, I was logging a hundred hours each week. It was heaven! So when I came back to work after the six weeks was up… I found it really hard to break free from the gravity of my projects. Which wasn't fair to my teammates. So that's when I decided it was time to take the plunge and begin working on my music full-time.
-
-### The future part
-
-If you're interested, here are the projects I'll be working on next. The thinking is that each one will also gain recognition for my band, the Bobtail Yearlings.
-
-##### Bobtail Yearlings
-
-You can check out the band website now, but we won't seem like a real band, ha. We're not touring yet, and my supposed bandmates are actually just former students who agreed to be on the list.${'  '}
-[Bobtail Yearlings](https://bobtailyearlings.com)
-
-##### *Bobtail Dominoes*
-
-A musical tile game. I'm working with a manufacturer to produce a tabletop version, after which I'll start a Kickstarter campaign for it.${'  '}
-[*Bobtail Dominoes*](https://bobtaildominoes.com)
-
-##### *Yearling's Bobtail*
-
-The audio webcomic. Once we're signed, this will be our first release. (It contains illustrated depictions of mature situations. Nothing explicit, just the usual way that graphic novels work.)${'  '}
-[*Yearling's Bobtail*](https://yearlingsbobtail.com)
-
-##### *Bobtail Method*
-
-If we're still not signed by this point, then I'll use my developer skills to build an interactive app for a songwriting lesson book I once wrote. The writing itself is bad, ha. I'll also create an online version of the musicial tile game.${'  '}
-[*Bobtail Method*](https://bobtailmethod.com)
-
-##### Amnesticism
-
-If we're still not signed after all this, then I'll resign myself to being a musician's musician for the rest of my life, ha. And I'll continue to develop the idea behind my Master's thesis.${'  '}
-[Master's thesis](https://digital.lib.washington.edu/researchworks/handle/1773/23566)
-
-##### Embarrassing prediction
-
-If you'll humor me, let me make a prediction: Within a year, the Bobtail Yearlings will be signed to a mid-tier record label like Sub Pop! So now that I've said this, it will live on forever in this zWiki, and I'll be super embarrassed if I fail, ha.
 
 ### The closing part
 
