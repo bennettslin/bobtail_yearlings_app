@@ -39,21 +39,7 @@ const YearlingsBobtailUpsell = () => (
                         <i>{getFormattedText(`Yearling's Bobtail`)}</i>
                     </label>
                     <Markdown>
-                    by the
-                    </Markdown>
-                    <label
-                        {...{
-                            className: cx(
-                                'YearlingsBobtailUpsell__bandLabel',
-                                'font__heading',
-                                'fontSize__md',
-                            ),
-                        }}
-                    >
-                    Bobtail Yearlings
-                    </label>
-                    <Markdown>
-                    An audio webcomic for
+                    Our audio webcomic for
                     </Markdown>
                     <Markdown>
                         {`the "*Ulysses* of rock albums"!`}

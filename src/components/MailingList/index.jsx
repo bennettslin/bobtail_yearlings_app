@@ -1,33 +1,27 @@
 import React from 'react'
 import cx from 'classnames'
-import MailingListInputs from './Inputs'
+import Flex from '../Flex'
+import MailingListAnchor from './Anchor'
 import FinePrint from '../FinePrint'
 import { getFormattedText } from '../../utils/format'
-import { EMAIL_ACTION } from '../../constants/website'
 import './style'
 
 const MailingList = () => (
-    <form
-        noValidate
+    <Flex
         {...{
             className: cx(
                 'MailingList',
             ),
-            action: EMAIL_ACTION,
-            method: 'post',
-            target: '_blank',
+            flexDirection: 'column',
         }}
     >
-        <label {...{ className: cx('MailingList__label') }}>
-            Join our mailing list:
-        </label>
-        <MailingListInputs />
+        <MailingListAnchor />
         <FinePrint>
             {getFormattedText(
                 `We'll send out one email per month at most.`,
             )}
         </FinePrint>
-    </form>
+    </Flex>
 )
 
 export default MailingList
