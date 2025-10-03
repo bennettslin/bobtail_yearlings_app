@@ -34,9 +34,6 @@ const Body = () => {
         >
             <Flex
                 {...{
-                    className: cx(
-                        'fontSize__md',
-                    ),
                     flexDirection: 'column',
                     alignItems: 'normal',
                     gap: 'sm',
