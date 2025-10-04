@@ -1,6 +1,7 @@
 import React from 'react'
 import cx from 'classnames'
 import Button from '../../Button'
+import { MAILING_LIST_WEBSITE } from '../../../constants/website'
 
 const MailingListAnchor = () => (
     <Button
@@ -11,8 +12,8 @@ const MailingListAnchor = () => (
                 'fontSize__lg',
                 'colour__link',
             ),
-            analyticsLabel: 'BobtailSubstack',
-            href: 'https://bobtail.substack.com',
+            analyticsLabel: 'BobtailYearlingsSubstack',
+            href: MAILING_LIST_WEBSITE,
         }}
     >
                 Join our mailing list
