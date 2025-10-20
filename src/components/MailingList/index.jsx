@@ -18,7 +18,7 @@ const MailingList = () => (
         <MailingListAnchor />
         <FinePrint>
             {getFormattedText(
-                `We'll send out one email per month at most.`,
+                `to our mailing list!`,
             )}
         </FinePrint>
     </Flex>
