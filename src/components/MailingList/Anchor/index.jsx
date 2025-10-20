@@ -16,7 +16,7 @@ const MailingListAnchor = () => (
             href: MAILING_LIST_WEBSITE,
         }}
     >
-                Subscribe…
+                Subscribe now
     </Button>
 )
 
